@@ -1,0 +1,5 @@
+    mutex is a semaphore that is used to protect the shared variables waitingRiders and bus from concurrent access.\
+    bus is a semaphore that is used to block riders from boarding the bus until it arrives.\
+    boarded is a semaphore that is used to block the bus from departing until all riders have boarded.\
+    The boardBus method increments the waitingRiders count and checks if there are more than 50 riders waiting. If there are, it decrements the waitingRiders count and returns immediately. \Otherwise, it acquires the bus semaphore and releases the boarded semaphore to signal that a rider has boarded.\
+    The depart method releases the bus semaphore 50 times to allow 50 riders to board the bus. It then acquires the boarded semaphore 50 times to block until all riders have boarded. Finally, it decrements the waitingRiders count by 50 to reflect the riders who have boarded the bus.
