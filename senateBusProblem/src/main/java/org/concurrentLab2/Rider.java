@@ -1,4 +1,4 @@
-package senateBusProblem;
+package org.concurrentLab2;
 
 public class Rider extends Thread {
     private int id;

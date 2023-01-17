@@ -1,4 +1,4 @@
-package senateBusProblem;
+package org.concurrentLab2;
 
 import java.util.concurrent.Semaphore;
 

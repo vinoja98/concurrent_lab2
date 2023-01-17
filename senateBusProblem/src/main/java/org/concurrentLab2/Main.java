@@ -1,4 +1,4 @@
-package senateBusProblem;
+package org.concurrentLab2;
 
 public class Main {
 //    private static Random rand = new Random();
