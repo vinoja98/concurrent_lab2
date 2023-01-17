@@ -1,6 +1,5 @@
 import java.util.Random;
 import java.util.concurrent.Semaphore;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class BusSimulation {
     // Maximum number of riders that can board the bus
@@ -50,6 +49,7 @@ public class BusSimulation {
             }
         }
     }
+    }
     
     private static class Rider implements Runnable {
         public void run() {
@@ -82,5 +82,5 @@ public class BusSimulation {
         System.out.println("A rider has boarded the bus.");
     }
 
-  }
-}    
+}
+  
