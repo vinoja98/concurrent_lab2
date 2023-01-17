@@ -8,7 +8,7 @@ public class RiderHandler extends Thread {
     Bus bus;
     int limit;
     private static Random rand = new Random();
-    private static final int RIDER_INTERARRIVAL_TIME = 30000;
+    private static final int RIDER_INTERARRIVAL_TIME = 30;
 
     public RiderHandler(Rider[] riders, Bus bus, int limit) {
         this.riders = riders;

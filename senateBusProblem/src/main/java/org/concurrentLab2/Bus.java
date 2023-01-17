@@ -16,7 +16,7 @@ public class Bus extends Thread {
 
     //use to generate inter arrival time
     private static Random rand = new Random();
-    private static final int BUS_INTERARRIVAL_TIME = 1200000;
+    private static final int BUS_INTERARRIVAL_TIME = 12000;
 
     public void depart() {
         System.out.println("Bus is departing.");
