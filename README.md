@@ -12,6 +12,8 @@ java -jar senateBusProblem-1.0-SNAPSHOT.jar
 
 There are totally 52 riders come to the bus stop. And the first Bus leaves after boarding 50 passengers. The remaining two wait for the next bus and the bus leaves once they get on board.
 
+Inter-arrival of busses and riders have been changed to 12000 and 30 respectively for the display purposes.
+
 ## Output
 
 
