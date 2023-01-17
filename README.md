@@ -76,6 +76,8 @@ Rider 47 is waiting for the bus.
 Rider 48 is waiting for the bus.
 Rider 49 is waiting for the bus.
 Rider 50 is waiting for the bus.
+Rider 51 is waiting for the bus.
+Rider 52 is waiting for the bus.
 Rider 1 is boarding the bus.
 Rider 2 is boarding the bus.
 Rider 3 is boarding the bus.
@@ -127,8 +129,6 @@ Rider 48 is boarding the bus.
 Rider 49 is boarding the bus.
 Rider 50 is boarding the bus.
 Bus is departing.
-Rider 51 is waiting for the bus.
-Rider 52 is waiting for the bus.
 Rider 51 is boarding the bus.
 Rider 52 is boarding the bus.
 Bus is departing.
